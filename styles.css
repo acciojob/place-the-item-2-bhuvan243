@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.holder > div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	width: 100px;
+	height: 100px;
+}
+.green{
+	background-color: green;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
